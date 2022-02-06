@@ -1,0 +1,22 @@
+{
+  "name": "spense-starter-files",
+  "version": "1.0.0",
+  "description": "Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects.",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build-watch": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css --watch",
+    "build": "npx tailwindcss -i ./css/tailwind.css -o ./css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.8.0",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.5",
+    "tailwindcss": "^3.0.18"
+  }
+}

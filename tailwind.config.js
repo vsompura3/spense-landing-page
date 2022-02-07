@@ -4,7 +4,11 @@ module.exports = {
     fontFamily: {
       sans: ['Cabin', 'system-ui'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        cream: '#F0EEEB',
+      },
+    },
   },
   plugins: [],
 };
